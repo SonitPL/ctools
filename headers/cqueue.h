@@ -1,3 +1,6 @@
+#ifndef CQUEUE_H
+#define CQUEUE_H
+
 #include "deque.h"
 
 /*
@@ -67,4 +70,4 @@ typedef list queue;
 #define qdestroy(q)\
   ldestroy(q)
 
-
+#endif
