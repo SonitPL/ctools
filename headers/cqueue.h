@@ -30,7 +30,7 @@ typedef list queue;
   Funkcja zwracająca wartość niezerową, gdy kolejka jest pusta.
 */
 #define qempty(q)\
-  lempty(q);
+  lempty(q)
 
 /*
   Zwraca wskaźnik na I element.
