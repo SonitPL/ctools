@@ -81,7 +81,7 @@ void* _aget(aarray, size_t);
   robić np: aget(a, int, 0) = 21;
 */
 #define aget(a, type, index)\
-  *((type*)_aget(a, index))
+  (*((type*)_aget(a, index)))
 
 
 /*
