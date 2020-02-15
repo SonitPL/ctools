@@ -2,7 +2,7 @@
   Przykład korzystania z literatora (oraz z [liter]).
 */
 
-#include "../headers/list.h"
+#include "../../headers/list.h"
 
 //funkcja wypisująca do [liter]
 void wypisz(void* a_)
@@ -38,5 +38,5 @@ int main(void)
     //nie polecam tak robić, ale można, jak ktoś nie lubi [lvalue]
     printf("%d", *((int*)i->data));
   }
-
+  ldestroy(&l);
 }

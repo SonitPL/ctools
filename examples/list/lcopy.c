@@ -1,7 +1,7 @@
 /*
   Przykład użycia [lcopy]
 */
-#include "../headers/list.h"
+#include "../../headers/list.h"
 
 void wypisz(void* arg)
 {
@@ -19,4 +19,6 @@ int main(void)
   lvalue(lnext(lbegin(l)), int) = 12;
   liter(l, wypisz); puts("");
   liter(li, wypisz); puts("");
+  ldestroy(&l);
+  ldestroy(&li);
 }

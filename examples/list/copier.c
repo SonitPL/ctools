@@ -2,7 +2,7 @@
   Przykład zastosowania funkcji kopiującej.
 */
 
-#include "../headers/list.h"
+#include "../../headers/list.h"
 
 /*
   Przykład prostej struktury, w której występuje wskaźnik na dane
